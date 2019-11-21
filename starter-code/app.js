@@ -71,6 +71,7 @@ app.use((req, res, next) => {
   }
 });
 
+// Mount routes
 app.use('/', indexRouter);
 app.use('/', authenticationRouter);
 

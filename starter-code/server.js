@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 
-const debug = require('debug')('lab-file-upload:server');
+const debug = require('debug')('lab-nodemailer:server');
 const app = require('./app');
 const mongoose = require('mongoose');
 
